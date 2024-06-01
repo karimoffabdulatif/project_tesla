@@ -1,0 +1,43 @@
+.container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+header{
+    padding: 20px;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    gap: 3%;
+    width: 100%;    
+    align-items: center;
+    justify-content: center;
+    margin: 0; 
+}
+header ul li {
+    list-style-type: none;
+    
+}
+
+.search {
+    width: 150px; 
+}
+
+.logo{
+    width: 120px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.nav-pages {
+    display: flex;
+    gap: 15%;
+    
+    
+}
+
